@@ -3,6 +3,7 @@ package com.quochung.sleeptracker.activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -56,11 +57,11 @@ public class StatActivity extends AppCompatActivity {
         SimpleDateFormat displaytime = new SimpleDateFormat("HH:mm:ss");
         try {
             Date storedate = formatter.parse(tracking.getString("counting", formatter.format(curdate)));
-            long different = curdate.getTime() - storedate.getTime();
-            long hour = different/3600000;
-            hour = hour/1000;
+            double different = curdate.getTime() - storedate.getTime() + 3600000;
+            double hour = different/3600000;
+
             //Progress max is 360
-            int progress = Math.round(hour*45);
+            int progress = (int) Math.round(hour*45);
 
             //Percent max is 100
             String percent = String.valueOf(Math.round(progress/3.6));
