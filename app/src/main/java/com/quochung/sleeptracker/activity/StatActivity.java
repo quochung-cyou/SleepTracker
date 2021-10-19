@@ -57,7 +57,7 @@ public class StatActivity extends AppCompatActivity {
         SimpleDateFormat displaytime = new SimpleDateFormat("HH:mm:ss");
         try {
             Date storedate = formatter.parse(tracking.getString("counting", formatter.format(curdate)));
-            double different = curdate.getTime() - storedate.getTime() + 3600000;
+            double different = curdate.getTime() - storedate.getTime();
             double hour = different/3600000;
 
             //Progress max is 360
