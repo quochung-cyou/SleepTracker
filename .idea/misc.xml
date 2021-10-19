@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/SleepTracker/app/src/main/res/drawable/button.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/SleepTracker/app/src/main/res/drawable/ovalround.xml" value="0.17094017094017094" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/SleepTracker/app/src/main/res/drawable/roundview.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/SleepTracker/app/src/main/res/drawable/slideupmoon.xml" value="0.21875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/SleepTracker/app/src/main/res/drawable/slideupsun.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_main.xml" value="0.17" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_nightactivity.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_start.xml" value="0.3578125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_stat.xml" value="0.21" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

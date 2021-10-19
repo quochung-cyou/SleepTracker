@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quochung.sleeptracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dream"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dream"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SleepTracker">
+        <activity
+            android:name=".activity.StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.StatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.NightActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.DayActivity"
+            android:exported="true">
+        </activity>
+    </application>
+
+</manifest>

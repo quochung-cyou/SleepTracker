@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/statrootlayout"
+    android:background="#070f23">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/datestat"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manropebold"
+        android:textColor="#9296a3"
+        android:textStyle="bold"
+        android:text="September 10, 2021" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:src="@drawable/line"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginStart="35dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/manropebold"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Sleep Analysis" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:adjustViewBounds="true"
+            android:layout_gravity="right"
+
+            android:src="@drawable/share"
+            app:tint="@color/white"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+
+
+    <com.app.progresviews.ProgressWheel
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/wheelprogress"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:progressColor="#32a852"
+        app:barWidth="10dp"
+        app:marginBtwText= "25dp"
+        app:countText="84%"
+        app:definitionText="Quality"
+        app:countTextColor="@color/white"
+        app:defTextColor="@color/white"
+        app:defTextSize="15sp"
+        app:countTextSize="35sp"
+        app:percentage="302"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manroperegular"
+        android:textColor="#9ca69f"
+        android:textStyle="bold"
+        android:text="Sleep duration" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:src="@drawable/up"
+            app:tint="#32a852" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:maxWidth="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/manropebold"
+            android:textColor="@color/white"
+            android:text="Don’t give up on your dreams so soon, sleep longer!" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundview"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/manropebold"
+            android:text="Sleep Information"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/moonicon"
+                    app:tint="#69706b"></ImageView>
+
+                <TextView
+                    style="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/manropebold"
+                    android:text="23:00"
+                    android:id="@+id/wenttosleep"
+                    android:textColor="@color/black"
+                    android:textSize="32dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/manroperegular"
+                android:text="Went to sleep"
+                android:textColor="#69706b"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/sunicon"
+                    app:tint="#69706b"></ImageView>
+
+                <TextView
+                    style="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/manropebold"
+                    android:text="06:00"
+                    android:id="@+id/wakeup"
+                    android:textColor="@color/black"
+                    android:textSize="32dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/manroperegular"
+                android:text="Wake up"
+                android:textColor="#69706b"
+                android:textSize="24dp"></TextView>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/backtohome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="Back to home"
+            android:textColor="@color/white"
+
+            android:fontFamily="@font/manropebold"
+            android:textSize="17dp"
+            android:background="@drawable/button"
+            android:scaleType="fitEnd" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
