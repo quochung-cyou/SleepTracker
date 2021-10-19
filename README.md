@@ -1,5 +1,11 @@
 A nice, minimal android sleep tracker app with modern UI
+
+
+-----
 ![](gifdemo.gif)
+
+----
+
 What i learned:
 
 + Create a responsive UI with ConstraintLayout
