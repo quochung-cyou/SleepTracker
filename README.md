@@ -2,6 +2,7 @@ A nice, minimal android sleep tracker app with modern UI
 
 
 -----
+![](mockup.png)
 ![](gifdemo.gif)
 
 ----
