@@ -6,7 +6,7 @@
 
 ## Description
 
-* A nice, minimal android sleep tracker app with modern UI
+* Get a better night's sleep with SleepTracker! Our modern, minimalistic app helps you track the quality and duration of your sleep, so you can stay on top of your health. With its easy-to-use interface and smooth animations, SleepTracker is the perfect way to get a good night's rest every time.
 
 ### Prerequisites
 
